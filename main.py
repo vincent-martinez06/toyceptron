@@ -1,9 +1,9 @@
 from math import exp
 
-#from network import Network
+from network import Network
 from layer import Layer
 from neuron import Neuron
-#from activation import act_relu, act_threshold, act_identity
+from activation import act_relu, act_threshold, act_identity
 
 
 def act_sigmoid(x):
