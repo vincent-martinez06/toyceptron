@@ -26,7 +26,7 @@ class Neuron:
 			total =+ inpt[i] * self.weights[i]
 		
 
-			total += self.bias
+		total += self.bias
 		
 		return total
 
